@@ -67,8 +67,4 @@ h2 {text-align: center;}
 
 
 <font face="Cheri" size="15px" color="ff0fd3">Mod by KayuZer0</font>
-
-</center>
-
-</body>
-</html>
+ 
