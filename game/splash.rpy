@@ -266,6 +266,7 @@ image warning:
 # This init python statement checks if the character files are present in-game
 # and writes them to the characters folder depending on the playthrough.
 init python:
+    import os
     if not persistent.do_not_delete:
         if renpy.android:
             if not os.access(os.environ['ANDROID_PUBLIC'] + "/characters/", os.F_OK):
