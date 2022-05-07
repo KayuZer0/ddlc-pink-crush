@@ -339,7 +339,7 @@ label splashscreen:
 
     if not persistent.lockdown_warning:
         if config.developer:
-            call lockdown_check from _call_lockdown_check
+            call lockdown_check
         else:
             $ persistent.lockdown_warning = True
 

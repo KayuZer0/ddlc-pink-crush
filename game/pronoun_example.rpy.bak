@@ -17,7 +17,7 @@ label pronoun_menu:
     menu:
         "Select a option."
         "Select a Pronoun":
-            call set_pronoun from _call_set_pronoun
+            call set_pronoun
 
         "Current Pronoun":
             if not he:
