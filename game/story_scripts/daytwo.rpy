@@ -104,12 +104,14 @@ label daytwo:
     "I pull her skirt down, and Natsuki discards it on the floor, spreading her legs."
     "Suddenlty, Natsuki pulls her lips apart from mine and gets up."
     "Still on the floor, I open my eyes."
+    scene black
+    show rick
+    $ renpy.pause(1, hard=True)
     scene bg bedroom_night
-    with wipeleft
     show natsuki 6a at t11
-    mc "Is everthing alright, Natsuki."
+    mc "Is everthing alright, Natsuki?"
     n "Yeah, but you know..."
-    n "The floor isn't really that comfortable, so I thought we should use the bed."
+    n "The floor isn't really that comfortable, so I thought we could use the bed."
     "I swiftly get up on my feet."
     mc "Yeah, you're right."
     "I step closer to Natsuki and place one hand on her hip and massage her breast with the other."
@@ -120,14 +122,11 @@ label daytwo:
     n "Uuuuu~!"
     n "Just... Shut up and get on the bed, alright?"
     mc "As you wish..."
-    show natsuki 6a
+    show natsuki at thide
+    hide natsuki
     "I forcefully push Natsuki on the bed and lay on top of her once again."
     "Before I can do anything, Natsuki grabs my shirt and pulls it off me, throwing it on the margin of the bed."
     "She then grabs me by my neck and pulls me into another deep kiss."
-    show natsuki at thide
-    hide natsuki 
-    scene black
-    with wipeleft
     "She then wraps her hands me and starts caressing my back up and down."
     "As my hands are free, I use them to spreat Natsuki legs."
     "I then place my hand in between them, and start gently rubbing her clitoris."
@@ -155,7 +154,7 @@ label daytwo:
     n "F-fuck! I-m... I'm cumming!"
     n "[player]!"
     n "Ahhhh!~"
-    scene black
+    scene bg bedroom_night
     with flash
     n "Aaaaaaahh!~"
     n "Hngggggh~"
@@ -171,8 +170,8 @@ label daytwo:
     "As the pants reach my knees, she begins to rub the buldge on my underwear."
     "I feel myself get hard."
     "Natsuki finally pulls down my underwear, exposing my erect member."
-    "Uuuwah!"
-    "Y-You're huge, [player]!"
+    n "Uuuwah!"
+    n "Y-You're huge, [player]!"
     "She wraps her lips around only the head of my penis, swirling her tounge around it."
     mc "Nnngh..."
     "Her mouth then slides to the base of my penis.."
@@ -180,8 +179,26 @@ label daytwo:
     "Natsuki puts one hand on my balls, squeezing gently."
     "Her lips and tounge begin to press even harder against my dick."
     "Natsuki begins to move heer head faster."
-    ""
-
+    "Her motuh mouths feels amazing~"
+    "Natsuki gags, but keeps forcing herself."
+    mc "Natsuki, t-this feels amazing~"
+    "Natsuki responds by moving even faster."
+    "I'm getting close to my limit."
+    mc "I'm- almost there, Natsuki."
+    "I can't help but grab Natsuki by her head, pulling her hair to thrust myself into her mouth."
+    "I giver her three hard, deep thrusts, as I bring myself to my limit."
+    scene bg bedroom_night
+    with flash
+    n "Mmmh!"
+    "Natsuki slides her mouth of my penis."
+    "She swallows my semen while still rubbing my cock with her hand."
+    n "So, did you like it?"
+    mc "Yeah- That was amazing."
+    "Natsuki leans back on the bed, and spreads her legs."
+    "A smirk builds up on her face as she looks me in the eye."
+    n "We both know we haven't had enough yet, right?"
+    mc "Right."
+    "I approach Natsuki, and position myself in between her legs."
     "I begin rubbing the head of my penis on the outside of Natsuki's vagina."
     n "Mmmh~"
     n "[player]... p-put in in, please."
@@ -193,5 +210,74 @@ label daytwo:
     n "Haaah~"
     n "Haaaaah!~"
     "As she moans, I feel Natsuki's insides tighten around me."
-    mc "Natsuki, t-this feels amazing."
-    n "It... feels good for me, too."
+    mc "Natsuki, t-this feels great!"
+    n "Y-yeah, I love it!~"
+    "As I start to move my hips faster, I begin massaging her clitoris with my thumb."
+    n "Kyaaaa!~"
+    n "Wait! T-that's too much!"
+    n "I dont think my body can take this much!~"
+    n "Ahhhh!~"
+    n "Haaaaah!~"
+    n "It's- going all the way in!"
+    "I don't stop moving."
+    n "Hngggh!~"
+    n "Haaah~"
+    "I lay over Natsuki, and prass my lips against hers."
+    "We start kissing, as the ocasionally moans into my mouth."
+    "I can feel that another orgasm is close."
+    n "Hngggggh!~"
+    n "Mmmmmh!"
+    "I thrust myself into Natsuki even harder."
+    "She moans uncontrollably, signaling she's close too."
+    n "M-Mmmmhh!~"
+    scene bg bedroom_night
+    with flash
+    n "Aaaaaaahh!~"
+    n "Haaaaah!~"
+    n "Haaahh!~"
+    n "Hngggggh, h-haaaaah!~"
+    "As Natsuki finishes, I pull myself out of her."
+    scene bg bedroom_night
+    with flash
+    mc "Hngggh!~"
+    "As another orgasm hits me, I release another load on Natsuki's belly."
+    "She catches her breath, and smiles at me."
+    n "Jeez! Don't be so rough, [player]."
+    n "I might get addicted, you know."
+    "Natsuki and I giggle."
+    mc "Sorry."
+    n "You've made quite a mess, you know."
+    n "Let's go take a shower, shall we?"
+    mc "Yeah, that sounds good."
+    scene bg bedroom_night
+    with wipeleft_scene
+    "Natsuki and I leave the bathroom, water still dripping from our naked bodies."
+    show natsuki 6a at t11
+    mc "Oh shit, I almost forgot. What time is it?"
+    n "I don't know, why?"
+    mc "Isn't your dad gonna get angry if you stay here until too late."
+    n "..."
+    "Natsuki is silent for a second, after witch she lets out a long, sad sigh."
+    n "Look."
+    n "My dad is not the strict and responsible parent you thing he is."
+    n "He's just a drunk loser who can't take care of himself, let alone his children."
+    "I'm taken aback by Natsuki's words."
+    n "So no, he won't get mad because he doesn't care."
+    n "When I told him I was coming over to your house today, he didn't even say anything. He just nodded."
+    n "So for all he cares I could be gone for good."
+    mc "Natsuki, I-"
+    mc "I's sorry, I didn't know it was like that."
+    n "It's alright. I don't usually open up about it."
+    mc "So, do you wanna sleep over this weekend?"
+    mc "As you just saw, my bed is big enough for two."
+    n "Yeah, that sounds like a good idea."
+    show natsuki at thide
+    hide natsuki
+    with wipeleft
+    "I get into bed, and Natsuki follows me."
+    "She sits down with her body facing me, and rests her head on my chest."
+    "I pull the sheets over bouth our bodies, and close my eyes."
+    scene black
+    with wipeleft
+    mc "Good night, Natsuki."
+    n "Good night, [player]."

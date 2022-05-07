@@ -296,6 +296,8 @@ image rick = Movie(size = (1280, 720), channel = "movie", play="mod_assets/movie
 image bg bedroom_night = "mod_assets/bg/bedroom_night.png"
 image bg livingroom = "mod_assets/bg/livingroom.png"
 
+define flash = Fade(.25, 0.0, .75, color="#fff")
+
 # Sayori's Character Definitions
 image sayori 1 = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/a.png")
 image sayori 1a = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/a.png")
