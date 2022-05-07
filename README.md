@@ -9,7 +9,7 @@ h2 {text-align: center;}
 
 <img src="https://i.imgur.com/zjtfbKc.jpg">
 
-<center>
+
 <font face="Cheri" size="20px" color="ff0fd3">Doki Doki: Pink Crush!</font>
 
 
