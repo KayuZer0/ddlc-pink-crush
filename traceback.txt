@@ -12,9 +12,9 @@ NameError: name 'os' is not defined
 Full traceback:
   File "game/splash.rpy", line 268, in script
     init python:
-  File "C:\Users\KayuZer0\Desktop\DDLC Mods\DDLC Pink Crush\renpy\ast.py", line 814, in execute
+  File "C:\Users\KayuZer0\Desktop\DDLC Mods\ddlc-pink-crush\renpy\ast.py", line 814, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\KayuZer0\Desktop\DDLC Mods\DDLC Pink Crush\renpy\python.py", line 1719, in py_exec_bytecode
+  File "C:\Users\KayuZer0\Desktop\DDLC Mods\ddlc-pink-crush\renpy\python.py", line 1719, in py_exec_bytecode
     exec bytecode in globals, locals
   File "game/splash.rpy", line 274, in <module>
     if not os.access(config.basedir + "/characters/", os.F_OK):
@@ -22,4 +22,4 @@ NameError: name 'os' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
-DDLC Mod Template 3.0.0
+Pink Crush 3.0.0
