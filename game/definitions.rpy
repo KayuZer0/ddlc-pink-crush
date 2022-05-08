@@ -196,17 +196,6 @@ image bg kitchen = "bg/kitchen.png" # MC's Kitchen BG
 image bg bedroom_night = "mod_assets/bg/bedroom_night.png"
 image bg livingroom = "mod_assets/bg/livingroom.png"
 
-image bg natsuki_bj1 = "mod_assets/cg/natsuki_bj1.png"
-image bg natsuki_bj2 = "mod_assets/cg/natsuki_bj2.png"
-image bg natsuki_bj3 = "mod_assets/cg/natsuki_bj3.png"
-image bg natsuki_bj4 = "mod_assets/cg/natsuki_bj4.png"
-image bg natsuki_bj5 = "mod_assets/cg/natsuki_bj5.png"
-image bg natsuki_bj6 = "mod_assets/cg/natsuki_bj6.png"
-image bg natsuki_sex1 = "mod_assets/cg/natsuki_sex1.png"
-image bg natsuki_sex2 = "mod_assets/cg/natsuki_sex2.png"
-image bg natsuki_sex3 = "mod_assets/cg/natsuki_sex3.png"
-image bg natsuki_sex4 = "mod_assets/cg/natsuki_sex4.png"
-
 image bg notebook = "bg/notebook.png" # Poem Game Notebook Scene
 image bg notebook-glitch = "bg/notebook-glitch.png" # Glitched Poem Game BG
 
