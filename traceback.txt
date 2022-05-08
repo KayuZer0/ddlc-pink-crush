@@ -1,40 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 45, in script call
-    call dayzero from _call_dayzero
-  File "game/story_scripts/dayzero.rpy", line 393, in script call
-    call dayone from _call_dayone
-  File "game/story_scripts/dayone.rpy", line 98, in script call
-    call daytwo from _call_daytwo
-  File "game/story_scripts/daytwo.rpy", line 161, in script
-    with flash
-  File "game/story_scripts/daytwo.rpy", line 161, in <module>
-    with flash
-NameError: name 'flash' is not defined
+  File "game/definitions.rpy", line 558, in script
+    image natsuki 61 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (0, 0), "natsuki/1t.png", (50, 50))
+  File "game/definitions.rpy", line 558, in script
+    image natsuki 61 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (0, 0), "natsuki/1t.png", (50, 50))
+  File "game/definitions.rpy", line 558, in <module>
+    image natsuki 61 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (0, 0), "natsuki/1t.png", (50, 50))
+Exception: Composite requires an odd number of arguments.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 45, in script call
-    call dayzero from _call_dayzero
-  File "game/story_scripts/dayzero.rpy", line 393, in script call
-    call dayone from _call_dayone
-  File "game/story_scripts/dayone.rpy", line 98, in script call
-    call daytwo from _call_daytwo
-  File "game/story_scripts/daytwo.rpy", line 161, in script
-    with flash
-  File "renpy/ast.py", line 1436, in execute
-    trans = renpy.python.py_eval(self.expr)
-  File "renpy/python.py", line 2276, in py_eval
-    return py_eval_bytecode(code, globals, locals)
+  File "renpy/bootstrap.py", line 331, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 560, in main
+    renpy.game.context().run(node)
+  File "game/definitions.rpy", line 558, in script
+    image natsuki 61 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (0, 0), "natsuki/1t.png", (50, 50))
+  File "game/definitions.rpy", line 558, in script
+    image natsuki 61 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (0, 0), "natsuki/1t.png", (50, 50))
+  File "renpy/ast.py", line 1027, in execute
+    img = renpy.python.py_eval_bytecode(self.code.bytecode)
   File "renpy/python.py", line 2269, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/story_scripts/daytwo.rpy", line 161, in <module>
-    with flash
-NameError: name 'flash' is not defined
+  File "game/definitions.rpy", line 558, in <module>
+    image natsuki 61 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (0, 0), "natsuki/1t.png", (50, 50))
+  File "renpy/display/im.py", line 808, in __init__
+    raise Exception("Composite requires an odd number of arguments.")
+Exception: Composite requires an odd number of arguments.
 
 Windows-10-10.0.22000
 Ren'Py 7.4.11.2266
-Pink Crush 3.0.0
-Sat May  7 18:38:43 2022
+Pink Crush 1.0.0
+Sun May  8 13:14:42 2022

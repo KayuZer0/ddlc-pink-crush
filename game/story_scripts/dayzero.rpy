@@ -3,6 +3,7 @@ label dayzero:
     scene bg residential_day
     with dissolve_scene_full
     play music t2
+    # call posetester from _call_posetester
     s "Heeeeeeeyyy!!"
     "I see an annoying girl running toward me from the distance, waving her arms in the air like she's totally oblivious to any attention she might draw to herself."
     "That girl is Sayori, my neighbor and good friend since we were children."

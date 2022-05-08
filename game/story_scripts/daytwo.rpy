@@ -281,3 +281,6 @@ label daytwo:
     with wipeleft
     mc "Good night, Natsuki."
     n "Good night, [player]."
+    mc "I notice Natsuki's penis is slghtly longer than mine."
+    scene bg bedroom
+    with dissolve_scene_full

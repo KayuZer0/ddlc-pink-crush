@@ -193,6 +193,20 @@ image bg sayori_bedroom = "bg/sayori_bedroom.png" # Sayori's Room BG
 image bg house = "bg/house.png" # Sayori's House BG
 image bg kitchen = "bg/kitchen.png" # MC's Kitchen BG
 
+image bg bedroom_night = "mod_assets/bg/bedroom_night.png"
+image bg livingroom = "mod_assets/bg/livingroom.png"
+
+image bg natsuki_bj1 = "mod_assets/cg/natsuki_bj1.png"
+image bg natsuki_bj2 = "mod_assets/cg/natsuki_bj2.png"
+image bg natsuki_bj3 = "mod_assets/cg/natsuki_bj3.png"
+image bg natsuki_bj4 = "mod_assets/cg/natsuki_bj4.png"
+image bg natsuki_bj5 = "mod_assets/cg/natsuki_bj5.png"
+image bg natsuki_bj6 = "mod_assets/cg/natsuki_bj6.png"
+image bg natsuki_sex1 = "mod_assets/cg/natsuki_sex1.png"
+image bg natsuki_sex2 = "mod_assets/cg/natsuki_sex2.png"
+image bg natsuki_sex3 = "mod_assets/cg/natsuki_sex3.png"
+image bg natsuki_sex4 = "mod_assets/cg/natsuki_sex4.png"
+
 image bg notebook = "bg/notebook.png" # Poem Game Notebook Scene
 image bg notebook-glitch = "bg/notebook-glitch.png" # Glitched Poem Game BG
 
@@ -287,14 +301,11 @@ image glitch_color2:
 # To define a new image, declare a new image statement like in this example:
 #     image sayori 1ca = im.Composite((960, 960), (0, 0), "mod_assets/sayori/1cl.png", (0, 0), "mod_assets/sayori/1cr.png", (0, 0), "sayori/a.png")
 
-#Mod specific images:
-image natsuki 6a = "mod_assets/nude_natsuki/nude1.png"
-image natsuki 6b = "mod_assets/nude_natsuki/nude2.png"
+# Old Natsuki nude sprites.
+image natsuki nude1 = "mod_assets/natsuki_nude_old/nude1.png"
+image natsuki nude2 = "mod_assets/natsuki_nude_old/nude2.png"
 
 image rick = Movie(size = (1280, 720), channel = "movie", play="mod_assets/movies/pink_crush_intro.ogv", loop = True)
-
-image bg bedroom_night = "mod_assets/bg/bedroom_night.png"
-image bg livingroom = "mod_assets/bg/livingroom.png"
 
 define flash = Fade(.25, 0.0, .75, color="#fff")
 
@@ -844,6 +855,116 @@ image natsuki 5bw = im.Composite((960, 960), (18, 22), "natsuki/w.png", (0, 0), 
 image natsuki 5bx = im.Composite((960, 960), (18, 22), "natsuki/x.png", (0, 0), "natsuki/3b.png")
 image natsuki 5by = im.Composite((960, 960), (18, 22), "natsuki/y.png", (0, 0), "natsuki/3b.png")
 image natsuki 5bz = im.Composite((960, 960), (18, 22), "natsuki/z.png", (0, 0), "natsuki/3b.png")
+
+# Natsuki naked - For the sex scenes.
+image natsuki 1ca = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/a.png")
+image natsuki 1cb = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/b.png")
+image natsuki 1cc = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/c.png")
+image natsuki 1cd = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/d.png")
+image natsuki 1ce = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/e.png")
+image natsuki 1cf = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/f.png")
+image natsuki 1cg = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/g.png")
+image natsuki 1ch = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/h.png")
+image natsuki 1ci = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/i.png")
+image natsuki 1cj = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/j.png")
+image natsuki 1ck = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/k.png")
+image natsuki 1cl = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/l.png")
+image natsuki 1cm = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/m.png")
+image natsuki 1cn = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/n.png")
+image natsuki 1co = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/o.png")
+image natsuki 1cp = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/p.png")
+image natsuki 1cq = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/q.png")
+image natsuki 1cr = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/r.png")
+image natsuki 1cs = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/s.png")
+image natsuki 1ct = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/t.png")
+image natsuki 1cu = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/u.png")
+image natsuki 1cv = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/v.png")
+image natsuki 1cw = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/w.png")
+image natsuki 1cx = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/x.png")
+image natsuki 1cy = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/y.png")
+image natsuki 1cz = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/z.png")
+
+image natsuki 2ca = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/a.png")
+image natsuki 2cb = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/b.png")
+image natsuki 2cc = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/c.png")
+image natsuki 2cd = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/d.png")
+image natsuki 2ce = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/e.png")
+image natsuki 2cf = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/f.png")
+image natsuki 2cg = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/g.png")
+image natsuki 2ch = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/h.png")
+image natsuki 2ci = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/i.png")
+image natsuki 2cj = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/j.png")
+image natsuki 2ck = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/k.png")
+image natsuki 2cl = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/l.png")
+image natsuki 2cm = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/m.png")
+image natsuki 2cn = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/n.png")
+image natsuki 2co = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/o.png")
+image natsuki 2cp = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/p.png")
+image natsuki 2cq = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/q.png")
+image natsuki 2cr = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/r.png")
+image natsuki 2cs = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/s.png")
+image natsuki 2ct = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/t.png")
+image natsuki 2cu = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/u.png")
+image natsuki 2cv = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/v.png")
+image natsuki 2cw = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/w.png")
+image natsuki 2cx = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/x.png")
+image natsuki 2cy = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/y.png")
+image natsuki 2cz = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/1l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/z.png")
+
+image natsuki 3ca = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/a.png")
+image natsuki 3cb = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/b.png")
+image natsuki 3cc = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/c.png")
+image natsuki 3cd = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/d.png")
+image natsuki 3ce = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/e.png")
+image natsuki 3cf = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/f.png")
+image natsuki 3cg = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/g.png")
+image natsuki 3ch = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/h.png")
+image natsuki 3ci = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/i.png")
+image natsuki 3cj = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/j.png")
+image natsuki 3ck = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/k.png")
+image natsuki 3cl = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/l.png")
+image natsuki 3cm = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/m.png")
+image natsuki 3cn = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/n.png")
+image natsuki 3co = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/o.png")
+image natsuki 3cp = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/p.png")
+image natsuki 3cq = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/q.png")
+image natsuki 3cr = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/r.png")
+image natsuki 3cs = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/s.png")
+image natsuki 3ct = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/t.png")
+image natsuki 3cu = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/u.png")
+image natsuki 3cv = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/v.png")
+image natsuki 3cw = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/w.png")
+image natsuki 3cx = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/x.png")
+image natsuki 3cy = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/y.png")
+image natsuki 3cz = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/1r.png", (-3, 0), "natsuki/z.png")
+
+image natsuki 4ca = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/a.png")
+image natsuki 4cb = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/b.png")
+image natsuki 4cc = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/c.png")
+image natsuki 4cd = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/d.png")
+image natsuki 4ce = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/e.png")
+image natsuki 4cf = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/f.png")
+image natsuki 4cg = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/g.png")
+image natsuki 4ch = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/h.png")
+image natsuki 4ci = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/i.png")
+image natsuki 4cj = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/j.png")
+image natsuki 4ck = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/k.png")
+image natsuki 4cl = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/l.png")
+image natsuki 4cm = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/m.png")
+image natsuki 4cn = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/n.png")
+image natsuki 4co = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/o.png")
+image natsuki 4cp = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/p.png")
+image natsuki 4cq = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/q.png")
+image natsuki 4cr = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/r.png")
+image natsuki 4cs = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/s.png")
+image natsuki 4ct = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/t.png")
+image natsuki 4cu = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/u.png")
+image natsuki 4cv = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/v.png")
+image natsuki 4cw = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/w.png")
+image natsuki 4cx = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/x.png")
+image natsuki 4cy = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/y.png")
+image natsuki 4cz = im.Composite((960, 960), (0, 0), "mod_assets/natsuki_nude/2l.png", (0, 0), "mod_assets/natsuki_nude/2r.png", (-3, 0), "natsuki/z.png")
+
 
 # These image definitions are left-overs of certain Natsuki expressions 
 # found in the original 1.0 release of DDLC.
