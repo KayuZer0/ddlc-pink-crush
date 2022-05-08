@@ -142,6 +142,26 @@ image y_cg2_dust4:
 image n_cg1_bg:
     "images/cg/n_cg1_bg.png"
 
+#TODO: Remove Natsuki's heart tatoo from the crotch area. Koikatsu added this on the model out of nowhere.
+image bg daytwo_cunnilingus1 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_cunnilingus1.png")
+image bg daytwo_cunnilingus2 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_cunnilingus2.png")
+image bg daytwo_cunnilingus3 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_cunnilingus3.png")
+image bg daytwo_cunnilingus4 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_cunnilingus4.png")
+image bg daytwo_cunnilingus5 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_cunnilingus5.png")
+image bg daytwo_cunnilingus6 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_cunnilingus6.png")
+
+image bg daytwo_blowjob1 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_bj1.png")
+image bg daytwo_blowjob2 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_bj2.png")
+image bg daytwo_blowjob3 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_bj3.png")
+image bg daytwo_blowjob4 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_bj4.png")
+image bg daytwo_blowjob5 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_bj5.png", xoffset=250, yoffset=250)
+image bg daytwo_blowjob6 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_bj6.png", xoffset=250, yoffset=250)
+
+image bg daytwo_sex1 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_sex1.png", yoffset=200)
+image bg daytwo_sex2 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_sex2.png", yoffset=200)
+image bg daytwo_sex3 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_sex3.png", yoffset=200)
+image bg daytwo_sex4 = Image("mod_assets/cg/daytwo_sex_scene/natsuki_sex4.png", yoffset=200)
+
 # This is the base of Natsuki watching you read manga.
 image n_cg1_base:
     "images/cg/n_cg1_base.png"
