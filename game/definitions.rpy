@@ -3,7 +3,7 @@
 # This file defines important stuff for DDLC and your mod!
 
 # This variable declares if the mod is a demo or not.
-define persistent.demo = False
+define persistent.demo = True
 
 # This variable declares whether the mod is in the 'steamapps' folder.
 define persistent.steam = ("steamapps" in config.basedir.lower())
@@ -291,11 +291,13 @@ image glitch_color2:
 #     image sayori 1ca = im.Composite((960, 960), (0, 0), "mod_assets/sayori/1cl.png", (0, 0), "mod_assets/sayori/1cr.png", (0, 0), "sayori/a.png")
 
 # Old Natsuki nude sprites.
-image natsuki nude1 = "mod_assets/natsuki_nude_old/nude1.png"
-image natsuki nude2 = "mod_assets/natsuki_nude_old/nude2.png"
+image natsuki 61 = "mod_assets/natsuki_nude_old/nude1.png"
+image natsuki 62 = "mod_assets/natsuki_nude_old/nude2.png"
 
+# Rickroll definition
 image rick = Movie(size = (1280, 720), channel = "movie", play="mod_assets/movies/pink_crush_intro.ogv", loop = True)
 
+# Orgasm flash.
 define flash = Fade(.25, 0.0, .75, color="#fff")
 
 # Sayori's Character Definitions
